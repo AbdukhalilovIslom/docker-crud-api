@@ -38,4 +38,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Docker image
-        run: docker build -t docker-crud-api:${{ github.sha }} .
+        run: |
+          docker tag docker-crud-api:${{ github.sha }} docker-crud-api:latest
