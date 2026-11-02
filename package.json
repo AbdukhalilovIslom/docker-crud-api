@@ -1,0 +1,22 @@
+{
+  "name": "docker-crud-practice-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly CRUD REST API for learning Docker and TypeScript",
+  "scripts": {
+    "dev": "tsx watch main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.30",
+    "@types/swagger-ui-express": "^4.1.8",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
